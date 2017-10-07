@@ -352,7 +352,7 @@ public class MainActivity extends ProjectManagerActivity implements
                 Toast.makeText(this, result, Toast.LENGTH_SHORT).show();
                 Intent i = new Intent();
                 i.putExtra("result", result);
-                setResult(1);
+                setResult(1, i);
                 finish();
                 break;
         }
